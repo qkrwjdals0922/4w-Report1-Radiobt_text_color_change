@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:text="Samlpe"
+        android:background="#FFFF00"
+        />
+
+    <RadioGroup
+        android:id="@+id/color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RadioButton
+            android:id="@+id/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            />
+
+        <RadioButton
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            />
+
+        <RadioButton
+            android:id="@+id/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/ckb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="흰색 배경"
+        />
+
+    <ToggleButton
+        android:id="@+id/tg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="영문"
+        android:textOn="한글"
+        android:textSize="18dp"
+        />
+
+
+
+</LinearLayout>
